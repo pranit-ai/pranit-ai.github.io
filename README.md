@@ -1,1 +1,3 @@
-# pranit-ai.github.io
+# Data Scientist
+
+### Pranit Mehta
