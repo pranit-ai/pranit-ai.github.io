@@ -1,0 +1,29 @@
+{
+  "name": "Pranit Mehta",
+  "fullName": "Pranit Mehta",
+  "initials": "PM",
+  "headline": "AI Engineer · Forward Deployed Engineer",
+  "heroTitle": "Engineering useful AI systems, from prototype to production.",
+  "summary": "I bring a decade of experience across software engineering, data and applied AI. My work spans machine learning, deep learning, LLM applications, retrieval-augmented generation and practical AI workflows—grounded in the ability to build, integrate and ship software.",
+  "location": "India",
+  "experienceLabel": "10+ years across software engineering, data and AI",
+  "availability": "Open to AI Engineer and Forward Deployed Engineer opportunities",
+  "email": "hello@example.com",
+  "linkedin": "https://www.linkedin.com/in/pranit-mehta-31366159/",
+  "website": "https://pranit-ai.github.io/",
+  "heroNote": "From data foundations and backend systems to LLM-powered applications.",
+  "highlights": [
+    {
+      "value": "10+ years",
+      "label": "Across software, data & AI"
+    },
+    {
+      "value": "GenAI",
+      "label": "LLM applications & RAG"
+    },
+    {
+      "value": "End-to-end",
+      "label": "Build · integrate · deliver"
+    }
+  ]
+}

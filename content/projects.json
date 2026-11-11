@@ -1,0 +1,167 @@
+[
+  {
+    "id": "rag-web-query",
+    "title": "On-device RAG Web Query Tool",
+    "category": "Generative AI · RAG",
+    "type": "AI application",
+    "summary": "A local-first application that lets users ask questions about webpages and receive context-aware answers grounded in retrieved passages.",
+    "details": "Built a Streamlit application using Ollama and the Mistral model. A retrieval pipeline indexes webpage content, finds relevant passages for a question and supplies that context to the language model to generate a grounded response.",
+    "stack": [
+      "Python",
+      "Streamlit",
+      "Ollama",
+      "Mistral",
+      "RAG",
+      "Vector search"
+    ],
+    "outcome": "Demonstrates a practical retrieve-and-read workflow with locally hosted inference.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": true,
+    "art": "rag"
+  },
+  {
+    "id": "glaucoma-detection",
+    "title": "Glaucoma Disease Detection",
+    "category": "Deep Learning · Computer Vision",
+    "type": "Academic project",
+    "summary": "A transfer-learning approach to classifying retinal images for glaucoma detection using convolutional neural networks.",
+    "details": "Compared MobileNetV2 and DenseNet201 using a dataset of 938 images across 10 classes. Evaluated model performance using validation loss, validation accuracy and classification metrics.",
+    "stack": [
+      "Python",
+      "TensorFlow / Keras",
+      "CNN",
+      "MobileNetV2",
+      "DenseNet201",
+      "Computer Vision"
+    ],
+    "outcome": "DenseNet201 achieved 91.62% validation accuracy in the reported experiment.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": true,
+    "art": "vision"
+  },
+  {
+    "id": "traffic-forecasting",
+    "title": "Road Traffic Forecasting",
+    "category": "Machine Learning · Time Series",
+    "type": "Academic project",
+    "summary": "Forecasted road traffic patterns using historical traffic observations and weather-related variables.",
+    "details": "Developed and tuned LSTM and GRU models to capture temporal patterns in traffic volume, exploring variations across days, months and years and considering weather conditions.",
+    "stack": [
+      "Python",
+      "Pandas",
+      "LSTM",
+      "GRU",
+      "Time-series analysis",
+      "Feature engineering"
+    ],
+    "outcome": "Compared recurrent neural network approaches for traffic-flow forecasting.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": true,
+    "art": "forecast"
+  },
+  {
+    "id": "arxiv-paper-review",
+    "title": "ArXiv Research Paper Rating with an LLM",
+    "category": "Generative AI · Evaluation",
+    "type": "AI prototype",
+    "summary": "An LLM-assisted workflow for assessing recent AI and computer science research papers against a structured set of criteria.",
+    "details": "Used OpenAI and prompt engineering to assess paper titles and abstracts across innovation, novelty, potential, clarity and relevance. The original concept focused on recent papers in machine learning, AI and reinforcement learning.",
+    "stack": [
+      "Python",
+      "OpenAI API",
+      "Prompt engineering",
+      "LLMs",
+      "Evaluation"
+    ],
+    "outcome": "Structured qualitative assessment across five evaluation dimensions.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": true,
+    "art": "research"
+  },
+  {
+    "id": "electricity-forecasting",
+    "title": "Electricity Consumption Forecasting",
+    "category": "Machine Learning · Forecasting",
+    "type": "Academic project",
+    "summary": "A time-series forecasting project to estimate electricity demand and support better resource planning.",
+    "details": "Created a preprocessing pipeline and an LSTM-based model to forecast electricity consumption up to 48 hours ahead. The original project reported a 15% improvement in model accuracy following data preparation.",
+    "stack": [
+      "Python",
+      "LSTM",
+      "Time-series forecasting",
+      "Data preprocessing"
+    ],
+    "outcome": "Explored short-horizon electricity demand forecasting.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": false,
+    "art": "energy"
+  },
+  {
+    "id": "rock-paper-scissors",
+    "title": "Hand Sign Image Recognition",
+    "category": "Deep Learning · Computer Vision",
+    "type": "Academic project",
+    "summary": "Recognised rock, paper and scissors hand signs using a transfer-learning image classification model.",
+    "details": "Applied a pre-trained ResNet50 convolutional neural network to classify hand-sign images and extended the project to compare two predictions and determine the game outcome.",
+    "stack": [
+      "Python",
+      "ResNet50",
+      "CNN",
+      "Transfer learning",
+      "Image classification"
+    ],
+    "outcome": "End-to-end image classification demonstration.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": false,
+    "art": "hands"
+  },
+  {
+    "id": "inventory-datawarehouse",
+    "title": "Inventory Management & Data Warehouse",
+    "category": "Data Engineering · Analytics",
+    "type": "Software / data project",
+    "summary": "A dimensional data modelling and data migration project for inventory information.",
+    "details": "Designed a star-schema data model with fact and dimension tables, keys and attributes. Worked with Hadoop ecosystem components including HDFS, Hive and Pig for data storage and transformation.",
+    "stack": [
+      "SQL",
+      "Data warehousing",
+      "Star schema",
+      "Hadoop",
+      "HDFS",
+      "Hive",
+      "Pig"
+    ],
+    "outcome": "Combined relational modelling with big-data processing concepts.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": false,
+    "art": "data"
+  },
+  {
+    "id": "web-platforms",
+    "title": "Web Application Foundations",
+    "category": "Software Engineering",
+    "type": "Selected engineering work",
+    "summary": "Earlier application development work across library management, CRM and inventory workflows.",
+    "details": "Built Python and Django application features involving authentication, data management, database-backed workflows and application interfaces. Add individual repository links or screenshots when available.",
+    "stack": [
+      "Python",
+      "Django",
+      "Django ORM",
+      "REST APIs",
+      "SQL",
+      "MongoDB"
+    ],
+    "outcome": "Software engineering foundation spanning backend development and data-driven applications.",
+    "link": "",
+    "linkLabel": "Add repository link",
+    "featured": false,
+    "art": "code"
+  }
+]

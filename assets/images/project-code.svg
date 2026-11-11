@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172945"/><stop offset="1" stop-color="#101726"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67E3D0"/><stop offset="1" stop-color="#8190FF"/></linearGradient></defs>
+<rect width="720" height="440" rx="24" fill="url(#bg)"/>
+<circle cx="590" cy="75" r="180" fill="#697FFF" opacity=".08"/><circle cx="80" cy="390" r="160" fill="#62E3D0" opacity=".06"/>
+<text x="52" y="70" fill="#7BE3D4" font-size="15" font-family="Arial" letter-spacing="3">SOFTWARE</text>
+<text x="52" y="112" fill="#F1F5FF" font-size="25" font-family="Arial" font-weight="700">APPLICATION ENGINEERING</text>
+<g stroke="url(#a)" stroke-width="2" fill="#1C2D48">
+<rect x="50" y="190" width="170" height="112" rx="15"/><rect x="275" y="190" width="170" height="112" rx="15"/><rect x="500" y="190" width="170" height="112" rx="15"/>
+<path d="M220 246h55m-12-9 12 9-12 9M445 246h55m-12-9 12 9-12 9"/>
+</g>
+<g fill="#E6EEFF" font-family="Arial" font-size="16" text-anchor="middle"><text x="135" y="253">API</text><text x="360" y="253">BUSINESS LOGIC</text><text x="585" y="253">DATABASE</text></g>
+<g fill="#70DDCE"><circle cx="135" cy="338" r="4"/><circle cx="360" cy="338" r="4"/><circle cx="585" cy="338" r="4"/></g>
+<path d="M135 302v36h450v-36" stroke="#6B83FF" stroke-opacity=".4" stroke-dasharray="5 8"/>
+</svg>

@@ -1,0 +1,23 @@
+[
+  {
+    "qualification": "MSc Artificial Intelligence",
+    "institution": "London Metropolitan University",
+    "period": "2022 — 2023",
+    "result": "Distinction · 76.44%",
+    "details": "Advanced study across machine learning, data visualisation, big data analytics, data warehousing and computer vision. Awarded a University Scholarship."
+  },
+  {
+    "qualification": "Master of Computer Applications (MCA)",
+    "institution": "Ahmedabad University",
+    "period": "2014 — 2016",
+    "result": "Distinction · 79.90%",
+    "details": "Postgraduate study in computer applications, data structures, algorithms, database management and software development in Android/iOS."
+  },
+  {
+    "qualification": "Bachelor of Computer Applications (BCA)",
+    "institution": "Gujarat University",
+    "period": "2011 — 2014",
+    "result": "Distinction · 78.92%",
+    "details": "Undergraduate foundation in computer applications, programming, databases and web development."
+  }
+]

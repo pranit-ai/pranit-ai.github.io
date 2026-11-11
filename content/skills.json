@@ -1,0 +1,135 @@
+[
+  {
+    "category": "Generative AI & LLM Engineering",
+    "level": "Core focus",
+    "description": "Building domain-specific LLM applications, grounded generation and production-ready model workflows.",
+    "items": [
+      "Generative AI",
+      "Large Language Models",
+      "Hugging Face Transformers",
+      "Azure OpenAI",
+      "AWS Bedrock",
+      "Prompt engineering",
+      "Structured outputs",
+      "Function calling",
+      "Tool integration",
+      "LoRA & QLoRA fine-tuning",
+      "PEFT",
+      "PyTorch"
+    ]
+  },
+  {
+    "category": "RAG & Knowledge Systems",
+    "level": "Core focus",
+    "description": "Designing retrieval systems that connect LLMs to enterprise data and external knowledge.",
+    "items": [
+      "Retrieval-Augmented Generation (RAG)",
+      "Hybrid retrieval",
+      "Semantic search",
+      "Embeddings",
+      "Reranking",
+      "Query optimisation",
+      "Multi-hop retrieval",
+      "GraphRAG",
+      "Azure AI Search",
+      "ChromaDB",
+      "Weaviate",
+      "HelixDB",
+      "OpenAI embeddings",
+      "sentence-transformers"
+    ]
+  },
+  {
+    "category": "AI Agents & Orchestration",
+    "level": "Core focus",
+    "description": "Orchestrating tool-using agents, multi-step workflows and human-supervised automation.",
+    "items": [
+      "Agentic AI systems",
+      "Multi-agent architectures",
+      "LangChain",
+      "LangGraph",
+      "LlamaIndex",
+      "LangFlow",
+      "n8n",
+      "State management",
+      "Decision routing",
+      "Human-in-the-loop (HITL)",
+      "Workflow orchestration",
+      "API integrations"
+    ]
+  },
+  {
+    "category": "LLM Evaluation, Quality & Safety",
+    "level": "Applied experience",
+    "description": "Evaluating retrieval and generation quality with test harnesses, human feedback and statistical methods.",
+    "items": [
+      "RAG evaluation",
+      "Golden datasets",
+      "Groundedness & citation checks",
+      "Answer relevance",
+      "A/B testing",
+      "Human evaluation",
+      "ELO-based ranking",
+      "Reward modelling",
+      "RLHF / PPO workflows",
+      "Prompt & regression testing",
+      "pytest & unittest",
+      "JSON Schema validation",
+      "Statistical hypothesis testing",
+      "SciPy",
+      "Statsmodels",
+      "LLM safety & bias evaluation",
+      "Langfuse observability"
+    ]
+  },
+  {
+    "category": "Machine Learning & Deep Learning",
+    "level": "Applied experience",
+    "description": "Classical machine learning, predictive modelling, time-series analysis and computer vision.",
+    "items": [
+      "Scikit-learn",
+      "PyTorch",
+      "TensorFlow / Keras",
+      "CNNs",
+      "ResNet",
+      "DenseNet",
+      "MobileNet",
+      "LSTM & GRU",
+      "Feature engineering",
+      "Model training & evaluation",
+      "NumPy",
+      "Pandas"
+    ]
+  },
+  {
+    "category": "Software, Cloud & Data Engineering",
+    "level": "Strong foundation",
+    "description": "Software engineering and cloud delivery practices for integrating and operating AI applications.",
+    "items": [
+      "Python",
+      "FastAPI",
+      "Django",
+      "Flask",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL",
+      "DuckDB",
+      "MySQL",
+      "MongoDB",
+      "AWS Lambda",
+      "Amazon SQS",
+      "Amazon S3",
+      "Azure AI Foundry",
+      "Azure Container Apps",
+      "Azure Key Vault",
+      "Azure DevOps",
+      "Docker",
+      "Kubernetes",
+      "MLflow",
+      "CI/CD",
+      "ETL",
+      "Git",
+      "Power BI"
+    ]
+  }
+]

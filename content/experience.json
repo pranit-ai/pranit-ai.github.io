@@ -1,0 +1,232 @@
+[
+  {
+    "role": "AI Engineer · Agentic Systems",
+    "company": "Wizr AI - First American (India)",
+    "companyNote": "Enterprise AI engineering and automation company; this engagement supported First American, a provider of title insurance and real-estate settlement services.",
+    "period": "Apr 2026 — Present",
+    "summary": "Designing and deploying agentic AI systems for title-insurance workflows, combining specialized agents, controlled autonomy and human oversight.",
+    "bullets": [
+      "Designed and developed agentic AI systems for title insurance using Python, LangChain, LangGraph and Azure AI Foundry, implementing multi-step workflows, tool calling, state management, decision routing and human-in-the-loop controls.",
+      "Designed multi-agent architectures with specialized agents for triage, retrieval, root-cause analysis, resolution and autonomous planning, coordinated through stateful workflows.",
+      "Implemented deterministic safety gates and confidence-based routing to preserve human oversight for low-confidence or high-risk decisions.",
+      "Architected and deployed cloud-native AI applications on Azure using Azure OpenAI, Azure Container Apps, Docker, Azure Container Registry, Key Vault and Application Insights.",
+      "Improved decision reliability through structured outputs, prompt engineering, evaluation, confidence scoring, context management and feedback loops."
+    ],
+    "stack": [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "Azure AI Foundry",
+      "Azure OpenAI",
+      "Multi-agent systems",
+      "Tool calling",
+      "Human-in-the-loop",
+      "Docker",
+      "Azure Container Apps",
+      "Azure Container Registry",
+      "Azure Key Vault",
+      "Application Insights"
+    ]
+  },
+  {
+    "role": "AI Engineer · Enterprise RAG",
+    "company": "Cosmos Globe IT Management",
+    "companyNote": "IT management and technology services provider. Public company information was limited, so this note is intentionally kept broad.",
+    "period": "Feb 2026 — Apr 2026",
+    "summary": "Engineering LLM applications and enterprise retrieval systems, with a focus on orchestration, answer quality, latency and operational reliability.",
+    "bullets": [
+      "Engineered and productionized LLM and GenAI applications using Python, LangChain, LangFlow and n8n, integrating tool calling, state management, memory and workflow orchestration.",
+      "Designed and optimized enterprise RAG architectures using hybrid retrieval, query optimization, embeddings, reranking and Azure AI Search, improving answer accuracy by 25% and reducing latency by 30%.",
+      "Integrated delivery workflows with Azure DevOps CI/CD and monitored application behaviour using Azure Application Insights."
+    ],
+    "stack": [
+      "Python",
+      "LLMs",
+      "LangChain",
+      "LangFlow",
+      "n8n",
+      "RAG",
+      "Hybrid retrieval",
+      "Azure AI Search",
+      "Embeddings",
+      "Reranking",
+      "Tool calling",
+      "Azure DevOps",
+      "Application Insights"
+    ]
+  },
+  {
+    "role": "AI Data Engineer",
+    "company": "Jenesys",
+    "companyNote": "UK-based AI bookkeeping software company developing automation that learns from accountant corrections and context.",
+    "period": "Jan 2026 — Feb 2026",
+    "summary": "Building AI-powered document extraction and bookkeeping workflows that connect LLMs, accounting platforms and cloud-native data services.",
+    "bullets": [
+      "Built an AI-powered invoice extraction pipeline using AWS Bedrock (Claude) and LangChain, integrated with Xero to process 500+ invoices per month at 92% accuracy and reduce manual data entry by 85%.",
+      "Implemented GraphRAG with a HelixDB knowledge graph to model product-to-VAT relationships, enrich retrieval context and reduce API costs by 30%.",
+      "Designed event-driven serverless processing with AWS Lambda, SQS and S3, supporting document processing in under 10 seconds and 99.5% uptime.",
+      "Integrated Langfuse for LLM tracing and observability, improving issue investigation and reducing debugging time by 40%."
+    ],
+    "stack": [
+      "Python",
+      "AWS Bedrock",
+      "Claude",
+      "LangChain",
+      "GraphRAG",
+      "HelixDB",
+      "Xero API",
+      "AWS Lambda",
+      "Amazon SQS",
+      "Amazon S3",
+      "Langfuse",
+      "LLM observability"
+    ]
+  },
+  {
+    "role": "Applied AI / ML Engineer",
+    "company": "JituValji Ltd",
+    "companyNote": "Technology and business-process services provider.",
+    "period": "Mar 2025 — Dec 2025",
+    "summary": "Developing domain-specific LLM and machine learning solutions, from model fine-tuning and retrieval architecture through experimentation and API deployment.",
+    "bullets": [
+      "Fine-tuned and adapted domain-specific LLMs using Hugging Face Transformers, PyTorch and PEFT techniques including LoRA and QLoRA.",
+      "Built agentic AI and RAG workflows with LangChain, LangGraph and LlamaIndex, integrating ChromaDB, Weaviate, OpenAI embeddings and sentence-transformers for semantic retrieval; improved contextual accuracy by 20%+ in medical and financial QA workflows.",
+      "Developed ML experimentation pipelines with PyTorch and Scikit-learn, covering preprocessing, feature extraction, model training and evaluation for predictive and NLP tasks.",
+      "Tracked experiments with MLflow and packaged inference services as Dockerized FastAPI APIs for deployment and integration."
+    ],
+    "stack": [
+      "Python",
+      "PyTorch",
+      "Hugging Face Transformers",
+      "PEFT",
+      "LoRA",
+      "QLoRA",
+      "Scikit-learn",
+      "LangChain",
+      "LangGraph",
+      "LlamaIndex",
+      "ChromaDB",
+      "Weaviate",
+      "OpenAI embeddings",
+      "sentence-transformers",
+      "MLflow",
+      "FastAPI",
+      "Docker"
+    ]
+  },
+  {
+    "role": "AI Data Scientist · LLM & RAG",
+    "company": "Cohere Inc.",
+    "companyNote": "Enterprise AI company building foundation models and secure AI products for business use cases.",
+    "period": "Jan 2024 — Feb 2025",
+    "summary": "Working on high-quality training data and evaluation workflows for enterprise-ready foundation models, with a focus on grounded LLM behaviour, tool use and measurable model quality.",
+    "bullets": [
+      "Curated and validated high-quality training datasets, golden examples and supervision signals for foundation-model and LLM tasks; used exploratory analysis to identify data gaps, noise and quality issues.",
+      "Built and improved RAG workflows over external knowledge sources, combining retrieval, source grounding and multi-hop context to support accurate, useful responses.",
+      "Integrated advanced function calling and tool workflows, including Python and SQL execution, file access, web search and weather APIs, to extend LLM capabilities beyond text generation.",
+      "Designed prompt structures using clear instructions, preambles, source-grounding techniques and citation formatting to improve factual accuracy, interpretability and alignment with user intent.",
+      "Developed evaluation workflows for retrieval and generated responses, assessing answer relevance, groundedness, citation quality, instruction following and structured-output validity.",
+      "Ran A/B tests and comparative evaluations using ELO-style ranking and qualitative human scoring; applied statistical methods such as t-tests, chi-square tests and confidence intervals to assess observed changes.",
+      "Contributed to reward-model-driven evaluation and PPO-based RLHF workflows, alongside safety, bias and policy-alignment checks.",
+      "Built unit tests, functional tests and prompt-validation harnesses with pytest, unittest and custom scripts to verify response consistency, JSON-schema compliance and end-to-end reliability.",
+      "Managed data ingestion, transformation and validation using Python, Pandas, NumPy and SQL across PostgreSQL and DuckDB; production benchmark improvements included 50% higher throughput and 25% lower latency."
+    ],
+    "stack": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "NumPy",
+      "PostgreSQL",
+      "DuckDB",
+      "LLMs",
+      "RAG",
+      "RAG evaluation",
+      "Golden datasets",
+      "Prompt engineering",
+      "Function calling",
+      "Multi-hop workflows",
+      "A/B testing",
+      "Human evaluation",
+      "ELO ranking",
+      "Reward modelling",
+      "RLHF / PPO",
+      "Statistical testing",
+      "SciPy",
+      "Statsmodels",
+      "pytest",
+      "unittest",
+      "JSON Schema",
+      "Safety evaluation"
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "company": "Horseway Global Ltd.",
+    "companyNote": "International trading and sourcing group working across industrial commodities, diamonds, renewable-energy products, recycled materials and digital services.",
+    "period": "Jul 2021 — Aug 2022",
+    "summary": "Developing supervised machine learning models and production-facing data science solutions to support forecasting and operational decisions.",
+    "bullets": [
+      "Developed and trained supervised machine learning models using Scikit-learn, XGBoost, TensorFlow and PyTorch.",
+      "Improved prediction accuracy by 25% through hyperparameter tuning, cross-validation and automated feature engineering, reducing forecast errors and supporting inventory decisions.",
+      "Accelerated model selection and experimentation using AutoML frameworks, while tracking reproducibility and model performance with MLflow.",
+      "Developed RESTful APIs using FastAPI, Flask and Django to serve models in real time, applying Pydantic schema validation for reliable integration with frontends and external systems."
+    ],
+    "stack": [
+      "Python",
+      "Scikit-learn",
+      "XGBoost",
+      "TensorFlow",
+      "PyTorch",
+      "AutoML",
+      "MLflow",
+      "FastAPI",
+      "Flask",
+      "Django",
+      "Pydantic",
+      "REST APIs"
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "company": "Horseway Global Ltd.",
+    "companyNote": "International trading and sourcing group working across industrial commodities, diamonds, renewable-energy products, recycled materials and digital services.",
+    "period": "Jun 2019 — Jun 2021",
+    "summary": "Supporting business reporting and decision-making through data discovery, analysis, visualization and reporting automation.",
+    "bullets": [
+      "Performed data discovery, visualization and advanced analysis using plots, pivot tables and structured reporting techniques.",
+      "Designed dynamic business reports and dashboards in Power BI and Tableau to improve visibility into business performance.",
+      "Automated recurring Excel report generation to streamline performance analysis and tracking."
+    ],
+    "stack": [
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Tableau",
+      "Data Analysis",
+      "Data Visualization",
+      "Reporting Automation"
+    ]
+  },
+  {
+    "role": "Python Web Developer · Django / Flask",
+    "company": "Horseway Global Ltd.",
+    "companyNote": "International trading and sourcing group working across industrial commodities, diamonds, renewable-energy products, recycled materials and digital services.",
+    "period": "May 2016 — May 2019",
+    "summary": "Building and maintaining Python web applications, backend services and API integrations for business software.",
+    "bullets": [
+      "Developed scalable web applications using Django and Flask, applying MVC architecture to keep application components maintainable.",
+      "Built and integrated RESTful APIs and optimized SQL queries, reducing response times by 30% and improving application throughput.",
+      "Worked across backend application development, database integration, debugging and performance improvements."
+    ],
+    "stack": [
+      "Python",
+      "Django",
+      "Flask",
+      "MVC architecture",
+      "REST APIs",
+      "SQL",
+      "Database integration",
+      "Performance optimization"
+    ]
+  }
+]
