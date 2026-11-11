@@ -96,6 +96,12 @@
       "MobileNet",
       "LSTM & GRU",
       "Feature engineering",
+      "Decision Trees",
+      "Random Forests",
+      "Gradient Boosting",
+      "XGBoost",
+      "LightGBM",
+      "Isolation Forests",
       "Model training & evaluation",
       "NumPy",
       "Pandas"

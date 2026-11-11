@@ -31,7 +31,7 @@
   {
     "role": "AI Engineer · Enterprise RAG",
     "company": "Cosmos Globe IT Management",
-    "companyNote": "IT management and technology services provider. Public company information was limited, so this note is intentionally kept broad.",
+    "companyNote": "IT management and technology services provider.",
     "period": "Feb 2026 — Apr 2026",
     "summary": "Engineering LLM applications and enterprise retrieval systems, with a focus on orchestration, answer quality, latency and operational reliability.",
     "bullets": [
@@ -116,7 +116,7 @@
   },
   {
     "role": "AI Data Scientist · LLM & RAG",
-    "company": "Cohere Inc.",
+    "company": "Cohere Inc. (London, United Kingdom)",
     "companyNote": "Enterprise AI company building foundation models and secure AI products for business use cases.",
     "period": "Jan 2024 — Feb 2025",
     "summary": "Working on high-quality training data and evaluation workflows for enterprise-ready foundation models, with a focus on grounded LLM behaviour, tool use and measurable model quality.",
