@@ -1,24 +1,219 @@
+
 [
+  {
+    "id": "title-insurance-document-intelligence",
+    "title": "Title Insurance Document Intelligence Platform",
+    "category": "Enterprise AI · Intelligent Document Processing",
+    "type": "Enterprise AI solution",
+    "summary": "An Azure-based intelligent document processing platform designed to automate document understanding, information extraction, classification and knowledge management for title insurance workflows.",
+    "details": "Designed and developed a modular document intelligence architecture consisting of an independent FastAPI processing service, Streamlit-based user interfaces and API-driven integration. Implemented document ingestion, OCR, document classification, structured information extraction, ontology management and review workflows. Established a modular architecture separating the processing backend from the user interface, enabling independent deployment and integration with downstream applications. The platform supports document review, extraction validation, ontology-driven processing and AI-assisted information retrieval.",
+    "stack": [
+      "Python",
+      "Azure",
+      "Azure AI Document Intelligence",
+      "FastAPI",
+      "Streamlit",
+      "OCR",
+      "LLMs",
+      "Information Extraction",
+      "Ontology Management",
+      "REST APIs"
+    ],
+    "outcome": "Established a reusable document intelligence foundation with independently maintainable processing services and user interfaces, supporting automated document understanding and downstream title insurance workflows.",
+    "link": "",
+    "linkLabel": "",
+    "featured": true,
+    "art": "title-insurance-document-intelligence"
+  },
+  {
+    "id": "title-insurance-claims-decision-intelligence",
+    "title": "Title Insurance Claims Decision Intelligence",
+    "category": "Enterprise AI · Decision Intelligence · RAG",
+    "type": "Enterprise AI POC",
+    "summary": "An AI-assisted claims decision intelligence system that helps insurance claim handlers make consistent, evidence-based decisions by combining policy rules, historical decisions, relevant evidence and LLM-powered reasoning.",
+    "details": "Designed and developed a modular decision intelligence architecture to support claim handlers across different experience levels. Established a canonical claims decision model connecting claims, evidence, policy context, historical decisions, decision events, authorized outcomes and feedback. Implemented a Decision Context Bridge to ingest structured claims data from Excel and provide a normalized context for analysis. Developed an AI decision workflow combining policy rules, similar historical cases, decision patterns and evidence analysis. The LLM generates suggested handling actions (approve, modify or reject), identifies relevant supporting evidence and provides contextual reasoning. Incorporated human-in-the-loop review to accept, modify or reject recommendations while preserving final decision authority with authorized handlers. Validated the workflow against synthetic historical claims, including deliberately incomplete evidence descriptions and vague historical reasoning.",
+    "stack": [
+      "Python",
+      "Azure",
+      "Azure OpenAI",
+      "LLMs",
+      "RAG",
+      "Pandas",
+      "Pydantic",
+      "FastAPI",
+      "Excel Integration",
+      "Decision Intelligence",
+      "Human-in-the-Loop"
+    ],
+    "outcome": "Demonstrated evidence-grounded claims decision recommendations and contextual reasoning, including the ability to independently identify relevant documents from imperfect historical claim records. Established a reusable foundation for claims decision support and continuous learning.",
+    "link": "",
+    "linkLabel": "",
+    "featured": true,
+    "art": "title-insurance-claims-decision-intelligence"
+  },
+  {
+    "id": "accounts-payable-anomaly-detection",
+    "title": "Intelligent Accounts Payable Anomaly Detection",
+    "category": "Enterprise AI · Machine Learning · Anomaly Detection",
+    "type": "Enterprise AI POC",
+    "summary": "A hybrid AI-powered anomaly detection framework designed to identify unusual accounts payable transactions, highlight financial irregularities and provide explainable insights for finance teams.",
+    "details": "Designed and developed a modular anomaly detection architecture for structured ERP invoice and payment data. Combined deterministic Python-based detection rules with machine learning to identify both known and previously unseen transaction patterns. Implemented rule-based detection concepts for duplicate invoices, invoice amount spikes, unusual invoice frequency, purchase order mismatches and payment discrepancies. Incorporated an Isolation Forest model for unsupervised anomaly detection, with model persistence through Joblib. Designed an LLM explainability layer to translate detection results and anomaly indicators into contextual business explanations. Defined on-demand scanning for user-selected date ranges and automated scanning for scheduled or newly received transactions. Designed the solution as a reusable skeleton independent of any specific ERP platform.",
+    "stack": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Isolation Forest",
+      "Joblib",
+      "Azure OpenAI",
+      "LLMs",
+      "Rule-Based Detection",
+      "Statistical Analysis",
+      "ERP Integration",
+      "FastAPI"
+    ],
+    "outcome": "Established a hybrid anomaly detection framework combining deterministic business controls, unsupervised machine learning and natural-language explanations, with a reusable architecture for integration across ERP platforms.",
+    "link": "",
+    "linkLabel": "",
+    "featured": true,
+    "art": "accounts-payable-anomaly-detection"
+  },
+  {
+    "id": "medical-coding-ai",
+    "title": "AI-Powered Medical Coding Assistant",
+    "category": "Enterprise AI · Healthcare · Generative AI",
+    "type": "Healthcare AI POC",
+    "summary": "An LLM-powered clinical coding assistant that analyzes structured patient records and clinical evidence to generate potential ICD-10 diagnosis coding recommendations.",
+    "details": "Developed a proof of concept exploring LLM-based medical coding using FHIR R4 healthcare resources. Integrated with a public HAPI FHIR server to retrieve patient and encounter information, including conditions, observations and available clinical documentation. Designed a clinical context aggregation workflow to consolidate relevant evidence before submitting it to Azure OpenAI. Explored an LLM-only coding approach in which the model interprets clinical context and generates diagnosis coding recommendations with supporting clinical rationale. Evaluated the availability and quality of FHIR resources, including incomplete patient records and clinical documentation gaps. The initial scope focuses on diagnosis coding recommendations rather than autonomous coding or final clinical authorization.",
+    "stack": [
+      "Python",
+      "Azure OpenAI",
+      "LLMs",
+      "FHIR R4",
+      "HAPI FHIR",
+      "Healthcare Data Integration",
+      "Clinical NLP",
+      "ICD-10",
+      "JSON",
+      "Prompt Engineering"
+    ],
+    "outcome": "Demonstrated an LLM-driven approach to extracting clinical context and generating diagnosis coding recommendations from FHIR-based evidence, while identifying documentation completeness as a key factor in coding reliability.",
+    "link": "",
+    "linkLabel": "",
+    "featured": true,
+    "art": "medical-coding-ai"
+  },
+  {
+    "id": "docgenai",
+    "title": "DocGenAI – Intelligent Document Generation",
+    "category": "Enterprise AI · Generative AI · Document Automation",
+    "type": "Enterprise AI POC",
+    "summary": "An intelligent document generation solution that transforms business templates and structured client data into professionally formatted, client-ready documents using LLM-assisted content interpretation.",
+    "details": "Designed a document generation architecture to automate the creation of DOCX and PDF documents from business-provided templates and structured data. Explored template processing, document structure preservation, dynamic field identification, data mapping and content replacement. Proposed an LLM-powered interpretation layer to understand business-defined placeholders and map incoming client or lender data to the appropriate document fields. Designed the generation pipeline to preserve the original template formatting while supporting reusable document processing across different business templates. The architecture separates template interpretation, data mapping, document generation and output rendering.",
+    "stack": [
+      "Python",
+      "Azure OpenAI",
+      "LLMs",
+      "Prompt Engineering",
+      "DOCX",
+      "PDF",
+      "Open XML",
+      "Document Automation",
+      "Template Processing"
+    ],
+    "outcome": "Established a reusable intelligent document generation approach for converting business templates and structured input data into formatted documents, reducing dependence on manually configured field mappings.",
+    "link": "",
+    "linkLabel": "",
+    "featured": true,
+    "art": "docgenai"
+  },
+  {
+    "id": "agentic-incident-management",
+    "title": "Agentic Incident Management & Support Ticket Automation",
+    "category": "Enterprise AI · Agentic AI · Workflow Automation",
+    "type": "Enterprise AI solution design",
+    "summary": "An agentic incident management framework designed to streamline support ticket processing through intelligent retrieval, automated triage, workflow orchestration and human-supervised resolution.",
+    "details": "Designed a modular incident management architecture using LangGraph to orchestrate ticket processing workflows. Established a deterministic workflow orchestration foundation for ticket intake, information retrieval, classification and triage. Incorporated retrieval-based context gathering to support incident understanding and downstream handling recommendations. Designed human-in-the-loop intervention points following retrieval and triage to ensure appropriate review before subsequent resolution actions. Considered Canadian data residency requirements and a modular architecture that separates workflow orchestration from individual processing capabilities.",
+    "stack": [
+      "Python",
+      "LangGraph",
+      "LLMs",
+      "RAG",
+      "Agentic AI",
+      "Workflow Orchestration",
+      "Human-in-the-Loop",
+      "FastAPI",
+      "Information Retrieval"
+    ],
+    "outcome": "Established a structured agentic workflow architecture for support ticket automation, combining deterministic orchestration, contextual retrieval and human oversight.",
+    "link": "",
+    "linkLabel": "",
+    "featured": true,
+    "art": "agentic-incident-management"
+  },
+  {
+    "id": "cpq-configurator-intelligence",
+    "title": "Intelligent CPQ Configurator Parser",
+    "category": "AI Engineering · Intelligent Automation",
+    "type": "Enterprise automation solution",
+    "summary": "An automated product configurator analysis solution that extracts product attributes, available values and complex dependency rules from web-based CPQ applications.",
+    "details": "Developed a browser automation and parsing solution using Playwright to navigate product configurators and systematically extract configuration metadata. Automated the discovery of configurable attributes, allowed values and conditional dependencies governing product selection. Designed the extraction workflow to capture configuration structures for different end-user contexts and product configurations. The implementation successfully identified 51 configuration fields and 126 dependency rules in the tested configurator, providing a structured representation of complex product configuration logic.",
+    "stack": [
+      "Python",
+      "Playwright",
+      "Browser Automation",
+      "Web Scraping",
+      "JSON",
+      "Rule Extraction",
+      "Dependency Analysis",
+      "Data Processing"
+    ],
+    "outcome": "Successfully extracted 51 configuration fields and 126 dependency rules, demonstrating automated discovery of complex CPQ configuration structures and business constraints.",
+    "link": "",
+    "linkLabel": "",
+    "featured": true,
+    "art": "cpq-configurator-intelligence"
+  },
   {
     "id": "rag-web-query",
     "title": "On-device RAG Web Query Tool",
     "category": "Generative AI · RAG",
-    "type": "AI application",
+    "type": "Personal AI application",
     "summary": "A local-first application that lets users ask questions about webpages and receive context-aware answers grounded in retrieved passages.",
-    "details": "Built a Streamlit application using Ollama and the Mistral model. A retrieval pipeline indexes webpage content, finds relevant passages for a question and supplies that context to the language model to generate a grounded response.",
+    "details": "Built a Streamlit application using Ollama and the Mistral model. Implemented a retrieval pipeline that indexes webpage content, identifies relevant passages for a user question and supplies retrieved context to the language model to generate grounded responses. Explored locally hosted inference to minimize reliance on external model APIs.",
     "stack": [
       "Python",
       "Streamlit",
       "Ollama",
       "Mistral",
       "RAG",
-      "Vector search"
+      "Vector Search",
+      "Prompt Engineering"
     ],
-    "outcome": "Demonstrates a practical retrieve-and-read workflow with locally hosted inference.",
+    "outcome": "Demonstrated an end-to-end local RAG application with webpage ingestion, contextual retrieval and locally hosted language model inference.",
     "link": "",
-    "linkLabel": "Add repository link",
+    "linkLabel": "",
     "featured": true,
     "art": "rag"
+  },
+  {
+    "id": "arxiv-paper-review",
+    "title": "ArXiv Research Paper Rating with an LLM",
+    "category": "Generative AI · Evaluation",
+    "type": "AI prototype",
+    "summary": "An LLM-assisted workflow for assessing AI and computer science research papers against structured evaluation criteria.",
+    "details": "Developed an OpenAI-powered evaluation workflow using prompt engineering to assess research paper titles and abstracts. Evaluated papers across innovation, novelty, potential, clarity and relevance, with structured qualitative assessments intended to help prioritize research reading.",
+    "stack": [
+      "Python",
+      "OpenAI API",
+      "Prompt Engineering",
+      "LLMs",
+      "Research Evaluation"
+    ],
+    "outcome": "Demonstrated structured LLM-based qualitative evaluation of research papers across five assessment dimensions.",
+    "link": "",
+    "linkLabel": "",
+    "featured": false,
+    "art": "research"
   },
   {
     "id": "glaucoma-detection",
@@ -37,8 +232,8 @@
     ],
     "outcome": "DenseNet201 achieved 91.62% validation accuracy in the reported experiment.",
     "link": "",
-    "linkLabel": "Add repository link",
-    "featured": true,
+    "linkLabel": "",
+    "featured": false,
     "art": "vision"
   },
   {
@@ -53,53 +248,14 @@
       "Pandas",
       "LSTM",
       "GRU",
-      "Time-series analysis",
-      "Feature engineering"
+      "Time-Series Analysis",
+      "Feature Engineering"
     ],
     "outcome": "Compared recurrent neural network approaches for traffic-flow forecasting.",
     "link": "",
-    "linkLabel": "Add repository link",
-    "featured": true,
-    "art": "forecast"
-  },
-  {
-    "id": "arxiv-paper-review",
-    "title": "ArXiv Research Paper Rating with an LLM",
-    "category": "Generative AI · Evaluation",
-    "type": "AI prototype",
-    "summary": "An LLM-assisted workflow for assessing recent AI and computer science research papers against a structured set of criteria.",
-    "details": "Used OpenAI and prompt engineering to assess paper titles and abstracts across innovation, novelty, potential, clarity and relevance. The original concept focused on recent papers in machine learning, AI and reinforcement learning.",
-    "stack": [
-      "Python",
-      "OpenAI API",
-      "Prompt engineering",
-      "LLMs",
-      "Evaluation"
-    ],
-    "outcome": "Structured qualitative assessment across five evaluation dimensions.",
-    "link": "",
-    "linkLabel": "Add repository link",
-    "featured": true,
-    "art": "research"
-  },
-  {
-    "id": "electricity-forecasting",
-    "title": "Electricity Consumption Forecasting",
-    "category": "Machine Learning · Forecasting",
-    "type": "Academic project",
-    "summary": "A time-series forecasting project to estimate electricity demand and support better resource planning.",
-    "details": "Created a preprocessing pipeline and an LSTM-based model to forecast electricity consumption up to 48 hours ahead. The original project reported a 15% improvement in model accuracy following data preparation.",
-    "stack": [
-      "Python",
-      "LSTM",
-      "Time-series forecasting",
-      "Data preprocessing"
-    ],
-    "outcome": "Explored short-horizon electricity demand forecasting.",
-    "link": "",
-    "linkLabel": "Add repository link",
+    "linkLabel": "",
     "featured": false,
-    "art": "energy"
+    "art": "forecast"
   },
   {
     "id": "rock-paper-scissors",
@@ -112,12 +268,12 @@
       "Python",
       "ResNet50",
       "CNN",
-      "Transfer learning",
-      "Image classification"
+      "Transfer Learning",
+      "Image Classification"
     ],
-    "outcome": "End-to-end image classification demonstration.",
+    "outcome": "Demonstrated an end-to-end image classification workflow.",
     "link": "",
-    "linkLabel": "Add repository link",
+    "linkLabel": "",
     "featured": false,
     "art": "hands"
   },
@@ -130,8 +286,8 @@
     "details": "Designed a star-schema data model with fact and dimension tables, keys and attributes. Worked with Hadoop ecosystem components including HDFS, Hive and Pig for data storage and transformation.",
     "stack": [
       "SQL",
-      "Data warehousing",
-      "Star schema",
+      "Data Warehousing",
+      "Star Schema",
       "Hadoop",
       "HDFS",
       "Hive",
@@ -139,7 +295,7 @@
     ],
     "outcome": "Combined relational modelling with big-data processing concepts.",
     "link": "",
-    "linkLabel": "Add repository link",
+    "linkLabel": "",
     "featured": false,
     "art": "data"
   },
@@ -149,7 +305,7 @@
     "category": "Software Engineering",
     "type": "Selected engineering work",
     "summary": "Earlier application development work across library management, CRM and inventory workflows.",
-    "details": "Built Python and Django application features involving authentication, data management, database-backed workflows and application interfaces. Add individual repository links or screenshots when available.",
+    "details": "Built Python and Django application features involving authentication, data management, database-backed workflows and application interfaces.",
     "stack": [
       "Python",
       "Django",
@@ -158,9 +314,9 @@
       "SQL",
       "MongoDB"
     ],
-    "outcome": "Software engineering foundation spanning backend development and data-driven applications.",
+    "outcome": "Established a software engineering foundation spanning backend development and data-driven applications.",
     "link": "",
-    "linkLabel": "Add repository link",
+    "linkLabel": "",
     "featured": false,
     "art": "code"
   }

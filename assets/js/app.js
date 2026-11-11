@@ -59,7 +59,7 @@ function renderProjects(items) {
           <h3>${safe(p.title)}</h3><p>${safe(p.summary)}</p>
           <div class="outcome">${safe(p.outcome)}</div>
           <div class="tags">${p.stack.map(t=>`<span class="tag">${safe(t)}</span>`).join("")}</div>
-          ${validHttpUrl(p.link)?`<a class="project-link" href="${safe(p.link)}" target="_blank" rel="noopener noreferrer">${safe(p.linkLabel||"View project")} ${icon("arrow-up-right")}</a>`:`<span class="project-link muted">${safe(p.linkLabel||"Repository link can be added in projects.json")}</span>`}
+          ${validHttpUrl(p.link)?`<a class="project-link" href="${safe(p.link)}" target="_blank" rel="noopener noreferrer">${safe(p.linkLabel||"View project")} ${icon("arrow-up-right")}</a>`:`<span class="project-link muted">${safe(p.linkLabel||"")}</span>`}
         </div>
       </article>`).join("");
     observeReveals();
